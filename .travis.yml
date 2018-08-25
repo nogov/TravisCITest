@@ -8,3 +8,5 @@ install:
 script: 
   - xbuild /p:Configuration=Release TravisCITest.sln
   - mono ./packages/xunit.runners.*/tools/xunit.console.clr4.exe ./TravisCITest_Tests/bin/Release/TravisCITest_Tests.dll
+notifications:
+  email: false
