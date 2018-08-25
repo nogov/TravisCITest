@@ -1,6 +1,6 @@
 language: csharp
 solution: TravisCITest.sln
-mono: none
+mono: latest
 dotnet: latest
 install: 
   - nuget restore TravisCITest.sln
