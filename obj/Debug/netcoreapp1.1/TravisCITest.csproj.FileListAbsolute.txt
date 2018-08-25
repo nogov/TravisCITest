@@ -1,9 +1,0 @@
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/bin/Debug/netcoreapp1.1/TravisCITest.deps.json
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/bin/Debug/netcoreapp1.1/TravisCITest.runtimeconfig.json
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/bin/Debug/netcoreapp1.1/TravisCITest.runtimeconfig.dev.json
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/bin/Debug/netcoreapp1.1/TravisCITest.dll
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/bin/Debug/netcoreapp1.1/TravisCITest.pdb
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/obj/Debug/netcoreapp1.1/TravisCITest.csprojResolveAssemblyReference.cache
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/obj/Debug/netcoreapp1.1/TravisCITest.AssemblyInfo.cs
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/obj/Debug/netcoreapp1.1/TravisCITest.dll
-/home/nogov/Projects/Teaching/TestCI/TravisCITest/obj/Debug/netcoreapp1.1/TravisCITest.pdb
