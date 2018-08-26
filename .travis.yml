@@ -1,6 +1,7 @@
 language: csharp
 solution: TravisCITest.sln
 dotnet: 1.1.5
+mono: none
 install: 
   - nuget restore TravisCITest.sln
 script: 
