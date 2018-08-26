@@ -2,6 +2,8 @@ language: csharp
 solution: TravisCITest.sln
 dotnet: 1.1.5
 mono: none
+install: 
+  - dotnet restore TravisCITest.sln
 script: 
   - dotnet build
   - dotnet test TravisCITest_Tests/TravisCITest_Tests.csproj
