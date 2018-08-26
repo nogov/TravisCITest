@@ -1,12 +1,10 @@
 language: csharp
 solution: TravisCITest.sln
-mono: latest
 dotnet: 1.1.5
 install: 
   - nuget restore TravisCITest.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script: 
-  - xbuild /p:Configuration=Release TravisCITest.sln
-  - mono ./packages/xunit.runners.*/tools/xunit.console.clr4.exe ./TravisCITest_Tests/bin/Release/TravisCITest_Tests.dll
+  - dotnet build
+  - dotnet test TravisCITest_Tests/TravisCITest_Tests.csproj
 notifications:
   email: false
