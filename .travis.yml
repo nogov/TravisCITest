@@ -1,7 +1,7 @@
 language: csharp
 solution: TravisCITest.sln
 mono: latest
-dotnet: latest
+dotnet: 1.1.5
 install: 
   - nuget restore TravisCITest.sln
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
