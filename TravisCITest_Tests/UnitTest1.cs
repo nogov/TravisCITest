@@ -11,7 +11,7 @@ namespace TravisCITest_Tests
         {
             var sut = new Testable();
 
-            Assert.Equal(sut.ReturnSame(5), 4);
+            Assert.Equal(sut.ReturnSame(5), 5);
         }
     }
 }
