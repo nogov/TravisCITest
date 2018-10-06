@@ -1,6 +1,6 @@
 using System;
-using Xunit;
 using TravisCITest;
+using Xunit;
 
 namespace TravisCITest_Tests
 {
@@ -10,8 +10,8 @@ namespace TravisCITest_Tests
         public void ReturnsTheSame()
         {
             var sut = new Testable();
-            
-            Assert.Equal(sut.ReturnSame(5), 5);
+
+            Assert.Equal(sut.ReturnSame(5), 4);
         }
     }
 }
